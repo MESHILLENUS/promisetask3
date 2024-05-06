@@ -1,0 +1,54 @@
+.image{
+    border:2px solid whitesmoke;
+    border-radius:80px;
+    width:260px;
+    height:150px;
+}
+.card{
+    
+    display:flex;
+    flex-direction: column;
+    height:300px;
+    width:280px;
+   justify-content: center;
+   align-items: center;
+   color:whitesmoke;
+}
+.title{
+    text-align: center;
+}
+
+a{
+    height:50px;
+    width:120px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border:1px solid whitesmoke;
+    background-color: black;
+    color:whitesmoke;
+    cursor:pointer;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    border-radius:10px;
+}
+
+.container{
+    
+    padding:20px 0 20px 0;
+}
+.cardContainer{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content: space-evenly;
+}
+
+*{
+    background-color: #9932cc;
+}
+h1{
+    color:white;
+    text-align: center;
+}
